@@ -762,7 +762,7 @@ Converted["_CanvasGroup"].Parent = Converted["_Menu"]
 
 Converted["_UICorner14"].Parent = Converted["_CanvasGroup"]
 
-Converted["_ImageLabel"].Image = "rbxassetid://18440375403"
+Converted["_ImageLabel"].Image = "https://create.roblox.com/store/asset/18440375403/CnrHub-logo"
 Converted["_ImageLabel"].AnchorPoint = Vector2.new(0.5, 0.5)
 Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_ImageLabel"].BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -946,7 +946,7 @@ Converted["_Toggler"].Parent = Converted["_Frame2"]
 Converted["_UICorner18"].CornerRadius = UDim.new(1, 0)
 Converted["_UICorner18"].Parent = Converted["_Toggler"]
 
-Converted["_ImageLabel1"].Image = "rbxassetid://18440375403"
+Converted["_ImageLabel1"].Image = "https://create.roblox.com/store/asset/18440375403/CnrHub-logo"
 Converted["_ImageLabel1"].ImageColor3 = Color3.fromRGB(255, 0, 4.000000236555934)
 Converted["_ImageLabel1"].AnchorPoint = Vector2.new(0.5, 0.5)
 Converted["_ImageLabel1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1265,7 +1265,7 @@ Converted["_UIGradient11"].Color = ColorSequence.new{
 }
 Converted["_UIGradient11"].Parent = Converted["_NotificationSample"]
 
-Converted["_ImageLabel2"].Image = "rbxassetid://18440375403"
+Converted["_ImageLabel2"].Image = "https://create.roblox.com/store/asset/18440375403/CnrHub-logo"
 Converted["_ImageLabel2"].ScaleType = Enum.ScaleType.Fit
 Converted["_ImageLabel2"].AnchorPoint = Vector2.new(0.5, 0.5)
 Converted["_ImageLabel2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1294,7 +1294,7 @@ Converted["_TextLabel10"].Parent = Converted["_NotificationSample"]
 Converted["_UITextSizeConstraint1"].MaxTextSize = 30
 Converted["_UITextSizeConstraint1"].Parent = Converted["_TextLabel10"]
 
-Converted["_Close1"].Image = "rbxassetid://18440375403"
+Converted["_Close1"].Image = "https://create.roblox.com/store/asset/18440375403/CnrHub-logo"
 Converted["_Close1"].ScaleType = Enum.ScaleType.Fit
 Converted["_Close1"].Active = false
 Converted["_Close1"].AnchorPoint = Vector2.new(0.5, 0.5)
@@ -1845,7 +1845,7 @@ do -- Fake Module: StarterGui.CnrHub.FUNCTIONS
 					local clonetoggletoggler = clonetoggle.Frame.Frame.Toggler
 					if toggleStates[item["Args"][1] .. module.Name] then
 						clonetoggletoggler.Position = UDim2.fromScale(0.7, 0.5)
-						clonetoggletoggler.ImageLabel.Image = "rbxassetid://18440375403"
+						clonetoggletoggler.ImageLabel.Image = "https://create.roblox.com/store/asset/18440375403/CnrHub-logo"
 					end
 		
 					clonetoggletoggler.MouseButton1Click:Connect(function()
@@ -1854,13 +1854,13 @@ do -- Fake Module: StarterGui.CnrHub.FUNCTIONS
 							ts:Create(clonetoggletoggler, TweenInfo.new(0.5, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out), {
 								Position = UDim2.fromScale(0.3, 0.5)
 							}):Play()
-							clonetoggletoggler.ImageLabel.Image = "rbxassetid://18440375403"
+							clonetoggletoggler.ImageLabel.Image = "https://create.roblox.com/store/asset/18440375403/CnrHub-logo"
 						else
 							toggleStates[item["Args"][1] .. module.Name] = true
 							ts:Create(clonetoggletoggler, TweenInfo.new(0.5, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out), {
 								Position = UDim2.fromScale(0.7, 0.5)
 							}):Play()
-							clonetoggletoggler.ImageLabel.Image = "rbxassetid://18440375403"
+							clonetoggletoggler.ImageLabel.Image = "https://create.roblox.com/store/asset/18440375403/CnrHub-logo"
 						end
 						item["Args"][2](clonetoggletoggler, toggleStates[item["Args"][1] .. module.Name])
 					end)
